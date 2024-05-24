@@ -32,11 +32,36 @@
 
 //BREAK AND CONTINUE
 
-for (let index = 0; index <=20; index++) {
-    if (index ==5) {
-        console.log(`Detected 5`);
-        continue
+// for (let index = 0; index <=20; index++) {
+//     if (index ==5) {
+//         console.log(`Detected 5`);
+//         continue
     
-    }
-    console.log(`Value of i is ${index}`);
-}
+//     }
+//     console.log(`Value of i is ${index}`);
+// }
+
+
+ //while loop
+
+ let index = 0
+//  while(index <=10){
+//     console.log(`Value of index is ${index }`);
+//     index=index+2 
+//  }
+
+
+//  let myArray = ['flash','batman','superman']
+
+//  let arr = 0
+//  while(arr<myArray.length){
+//     console.log(`Value is ${myArray[arr]}`);
+//     arr++;
+//  }
+
+let score = 1
+
+do {
+    console.log(`Value of score ${score}`);
+    score++
+} while (score <=10);
